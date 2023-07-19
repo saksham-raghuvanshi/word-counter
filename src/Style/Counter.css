@@ -1,16 +1,13 @@
 .counter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-width: 900px;
     margin: auto;
+    text-align: center;
 }
 
 .counter .textArea{
     resize: none;
     width: 90%;
-    height: 25px;
+    height: 250px;
     font-size: 18px;
     padding: 15px;
     border: 0px;
@@ -20,4 +17,47 @@
 
 .counter .textArea:focus{
     outline: none;
+}
+
+.counter button{
+    background-color: #bc4242;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    width: 150px;
+    font-size: 16px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+
+
+}
+
+.counter button:hover{
+    background-color: #ae3a3a;
+}
+
+
+.counter button:disabled{
+    background-color: #858585;
+    cursor: not-allowed;
+}
+
+.counter .result {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.counter .result span{
+    background-color: #1f4690;
+    color: #ffffff;
+    min-height: 17px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
 }
