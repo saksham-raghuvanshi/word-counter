@@ -1,7 +1,4 @@
-main{
-    background-color: #ffffff;
-    min-height: 100vh;
-}
+
 
 .header{
     text-align: center;
@@ -16,4 +13,8 @@ main{
 
 .subHeading{
     font-size: 18px;
+}
+
+main .homepage{
+    min-height: 100vh;
 }
