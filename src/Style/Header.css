@@ -1,0 +1,19 @@
+main{
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.header{
+    text-align: center;
+    padding: 40px 0;
+    color: #191919;
+}
+
+.heading{
+    font-size: 32px;
+
+}
+
+.subHeading{
+    font-size: 18px;
+}
