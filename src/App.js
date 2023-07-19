@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./Style/Header.css";
 import "./Style/Counter.css";
+import "./Style/pnf.css";
 import HomePage from "./pages/HomePage";
 import PageNotFound from "./pages/PageNotFound";
 

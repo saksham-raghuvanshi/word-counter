@@ -1,0 +1,38 @@
+.pnf{
+    padding: 50px 10px;
+}
+
+.pnf img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+
+.oops{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 30px 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.oops p{
+    margin: 10px;
+    font-size: 26px;
+}
+
+.oops button{
+    background-color: #1f4690;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    padding:10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
